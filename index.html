@@ -21,6 +21,68 @@
     />
   </head>
   <body class="font-body font-reguler">
+    <!-- ===== HEADER SECTION ===== -->
+    <header
+      class="header fixed w-full top-0 left-0 bg-gradient-to-tr from-green-100 to-green-200 z-50 transition-all duration-300"
+      id="header"
+    >
+      <div
+        class="header__container container h-24 flex justify-between items-center"
+      >
+        <a
+          href="#"
+          class="header__logo inline-flex items-center gap-2 text-white font-semibold"
+        >
+          <img src="./src/img/logo.png" alt="" class="header__logo-img w-6" />
+          Halloween
+        </a>
+
+        <div class="header__menu" id="header-menu">
+          <ul class="header__list flex flex-col gap-6">
+            <li class="header__item">
+              <a href="#" class="header__link active-link">Home</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">About</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Candy</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">New</a>
+            </li>
+          </ul>
+
+          <a
+            href="#"
+            class="header__button button inline-flex button-border mt-6"
+            >Support</a
+          >
+
+          <img
+            src="./src/img/nav-img.png"
+            alt=""
+            class="header__img absolute w-[100px] top-0 left-0"
+          />
+
+          <div
+            class="header__close absolute inline-flex top-10 right-6 text-[1.5rem] text-white cursor-pointer"
+            id="header-close"
+          >
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div
+          class="header__toggle inline-flex text-[1.5rem] text-white cursor-pointer"
+          id="header-toggle"
+        >
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ===== HEADER SECTION ===== -->
+
     <!-- ===== MAIN JS ===== -->
     <script type="module" src="./src/js/main.js"></script>
   </body>
