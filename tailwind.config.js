@@ -38,7 +38,7 @@ module.exports = {
       bold: 900,
     },
     lineHeight: {
-      title: "150%",
+      title: "120%",
       text: "170%",
     },
   },

@@ -16,3 +16,18 @@ function showMenu(menuid, toggleid, closeid) {
   }
 }
 showMenu("header-menu", "header-toggle", "header-close");
+
+// ===== HOME SWIPER =====
+let homeSwiper = new Swiper(".home-swiper", {
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    duration: 2000,
+    disableOnInteraction: false,
+  },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

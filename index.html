@@ -19,11 +19,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
+
+    <!-- ===== SWIPER CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
   </head>
-  <body class="font-body font-reguler">
+  <body
+    class="font-body font-reguler bg-gradient-to-r from-green-100 to-green-200"
+  >
     <!-- ===== HEADER SECTION ===== -->
     <header
-      class="header fixed w-full top-0 left-0 bg-gradient-to-tr from-green-100 to-green-200 z-50 transition-all duration-300"
+      class="header fixed w-full top-0 left-0 bg-gradient-to-r from-green-100 to-green-200 z-50 transition-all duration-300"
       id="header"
     >
       <div
@@ -82,6 +90,212 @@
       </div>
     </header>
     <!-- ===== HEADER SECTION ===== -->
+
+    <main class="overflow-hidden">
+      <!-- ===== HOME SECTION ===== -->
+      <section class="home pt-28 pb-12 container">
+        <div class="swiper home-swiper">
+          <!-- home content -->
+          <div class="swiper-wrapper">
+            <section class="swiper-slide">
+              <div class="home__content grid gap-4">
+                <div class="home__group relative grid pt-8">
+                  <img
+                    src="./src/img/home1-img.png"
+                    alt=""
+                    class="home__group-img h-[250px] justify-self-center"
+                  />
+
+                  <div class="home__group-indicator"></div>
+
+                  <div class="home__group-details absolute right-2">
+                    <h3
+                      class="home__group-title block text-[14px] text-grey font-semibold text-right"
+                    >
+                      The Labu "Reiza"
+                    </h3>
+                    <span
+                      class="home__group-subtitle block text-[13px] text-grey text-right"
+                      >The Living Pumpkin</span
+                    >
+                  </div>
+                </div>
+
+                <div class="home__data">
+                  <h3
+                    class="home__data-subtitle text-[15px] text-grey font-bold mb-4 uppercase"
+                  >
+                    #1 Top Scariest Ghost
+                  </h3>
+                  <h1
+                    class="home__data-title text-[36px] text-grey font-bold mb-4 leading-title uppercase"
+                  >
+                    UOOOO <br />
+                    TRICK OR <br />
+                    TREAT!!
+                  </h1>
+                  <p
+                    class="home__data-text text-[15px] text-grey mb-4 leading-text"
+                  >
+                    Hi, I'm Reiza, people call me "El Labu". I am currently
+                    trying to learn something new, building my own bike with
+                    parts made only in Malaysia.
+                  </p>
+
+                  <div class="home__data-buttons flex justify-between">
+                    <a href="#" class="home__data-button button button-fill"
+                      >Book Now</a
+                    >
+                    <a
+                      href="#"
+                      class="home__data-button inline-flex items-center gap-2 text-[15px] text-grey font-medium"
+                    >
+                      Track Record
+                      <i
+                        class="bx bx-right-arrow-alt inline-flex text-[1.3rem]"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="swiper-slide">
+              <div class="home__content grid gap-4">
+                <div class="home__group relative grid pt-8">
+                  <img
+                    src="./src/img/home2-img.png"
+                    alt=""
+                    class="home__group-img h-[250px] justify-self-center"
+                  />
+
+                  <div class="home__group-indicator"></div>
+
+                  <div class="home__group-details absolute right-2">
+                    <h3
+                      class="home__group-title block text-[14px] text-grey font-semibold text-right"
+                    >
+                      Adino & Grahami
+                    </h3>
+                    <span
+                      class="home__group-subtitle block text-[13px] text-grey text-right"
+                      >No words can describe them</span
+                    >
+                  </div>
+                </div>
+
+                <div class="home__data">
+                  <h3
+                    class="home__data-subtitle text-[15px] text-grey font-bold mb-4 uppercase"
+                  >
+                    #2 top Best duo
+                  </h3>
+                  <h1
+                    class="home__data-title text-[36px] text-grey font-bold mb-4 leading-title uppercase"
+                  >
+                    BRING BACK <br />
+                    MY COTTON <br />
+                    CANDY
+                  </h1>
+                  <p
+                    class="home__data-text text-[15px] text-grey mb-4 leading-text"
+                  >
+                    Adino steals cotton candy from his brother and eats them all
+                    in one bite, a hungry beast. Grahami can no longer contain
+                    his anger towards Adino.
+                  </p>
+
+                  <div class="home__data-buttons flex justify-between">
+                    <a href="#" class="home__data-button button button-fill"
+                      >Book Now</a
+                    >
+                    <a
+                      href="#"
+                      class="home__data-button inline-flex items-center gap-2 text-[15px] text-grey font-medium"
+                    >
+                      Track Record
+                      <i
+                        class="bx bx-right-arrow-alt inline-flex text-[1.3rem]"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="swiper-slide">
+              <div class="home__content grid gap-4">
+                <div class="home__group relative grid pt-8">
+                  <img
+                    src="./src/img/home3-img.png"
+                    alt=""
+                    class="home__group-img h-[250px] justify-self-center"
+                  />
+
+                  <div class="home__group-indicator"></div>
+
+                  <div class="home__group-details absolute right-2">
+                    <h3
+                      class="home__group-title block text-[14px] text-grey font-semibold text-right"
+                    >
+                      Captain Sem
+                    </h3>
+                    <span
+                      class="home__group-subtitle block text-[13px] text-grey text-right"
+                      >Veteran Spooky Ghost</span
+                    >
+                  </div>
+                </div>
+
+                <div class="home__data">
+                  <h3
+                    class="home__data-subtitle text-[15px] text-grey font-bold mb-4 uppercase"
+                  >
+                    #3 Top Scariest Ghost
+                  </h3>
+                  <h1
+                    class="home__data-title text-[36px] text-grey font-bold mb-4 leading-title uppercase"
+                  >
+                    RESPAWN <br />
+                    THE SPOOKY <br />
+                    SKULL
+                  </h1>
+                  <p
+                    class="home__data-text text-[15px] text-grey mb-4 leading-text"
+                  >
+                    In search for cute little puppy, Captain Sem has come back
+                    from his tragic death. With his hogwarts certified power he
+                    promise to be a hero for all of ghostkind.
+                  </p>
+
+                  <div class="home__data-buttons flex justify-between">
+                    <a href="#" class="home__data-button button button-fill"
+                      >Book Now</a
+                    >
+                    <a
+                      href="#"
+                      class="home__data-button inline-flex items-center gap-2 text-[15px] text-grey font-medium"
+                    >
+                      Track Record
+                      <i
+                        class="bx bx-right-arrow-alt inline-flex text-[1.3rem]"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- home pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- ===== HOME SECTION ===== -->
+    </main>
+
+    <!-- ===== SWIPER JS ===== -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!-- ===== MAIN JS ===== -->
     <script type="module" src="./src/js/main.js"></script>

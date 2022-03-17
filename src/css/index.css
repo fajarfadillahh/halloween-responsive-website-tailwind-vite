@@ -28,7 +28,7 @@
   }
 }
 
-/* ===== Header Section ===== */
+/* ===== HEADER SECTION ===== */
 @media screen and (max-width: 767px) {
   .header__menu {
     @apply fixed w-full -top-full left-0 text-center pt-24 pb-16 bg-gradient-to-b from-green-100 to-green-200 rounded-[0_0_2rem_2rem] z-50 transition-all duration-300;
@@ -44,4 +44,28 @@
 }
 .header__link.active-link {
   @apply relative font-semibold before:absolute before:content-[""] before:top-6 before:left-0 before:right-0 before:mx-auto before:w-[20px] before:h-[4px] before:bg-white before:rounded-[5rem];
+}
+
+/* ===== HOME SECTION ===== */
+/* Home Group Indicator */
+.home__group-indicator {
+  @apply absolute w-2 h-2 top-28 right-8 bg-white rounded-[50%];
+}
+.home__group-indicator::before {
+  @apply absolute content-[""] w-[1px] h-[48px] bg-white -top-12 right-[45%];
+}
+/* Home Pagination */
+.swiper-pagination {
+  @apply mt-4;
+  position: initial;
+}
+.swiper-pagination-bullet {
+  @apply w-[5px] h-[5px] bg-white opacity-100;
+}
+.swiper-pagination-bullet-active {
+  @apply w-[1.5rem] h-[5px] rounded-lg;
+}
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  @apply mx-2;
 }
