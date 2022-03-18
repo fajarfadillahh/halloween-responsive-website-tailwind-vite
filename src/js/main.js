@@ -20,6 +20,7 @@ showMenu("header-menu", "header-toggle", "header-close");
 // ===== HOME SWIPER =====
 let homeSwiper = new Swiper(".home-swiper", {
   spaceBetween: 30,
+  grabCursor: true,
   loop: true,
   autoplay: {
     duration: 2000,
