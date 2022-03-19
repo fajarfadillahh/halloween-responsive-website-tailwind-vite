@@ -70,3 +70,23 @@
   .swiper-pagination-bullet {
   @apply mx-2;
 }
+
+/* ===== TRICK SECTION ===== */
+.trick__item {
+  @apply relative text-center grid gap-4 w-[250px] py-8 px-4 bg-[rgba(0,0,0,0.15)] rounded-[2rem] overflow-hidden;
+}
+.trick__item-img {
+  @apply w-[150px] justify-self-center transition-all duration-300 group-hover:-translate-y-2;
+}
+.trick__item-title {
+  @apply text-[20px] text-grey font-bold mb-2;
+}
+.trick__item-text {
+  @apply text-[15px] text-grey mb-2;
+}
+.trick__item-price {
+  @apply text-[20px] text-grey font-bold;
+}
+.trick__item-button {
+  @apply button button-fill absolute inline-flex p-4 -right-16 bottom-0 transition-all duration-300 group-hover:right-0;
+}
