@@ -90,3 +90,32 @@
 .trick__item-button {
   @apply button button-fill absolute inline-flex p-4 -right-16 bottom-0 transition-all duration-300 group-hover:right-0;
 }
+
+/* ===== NEW SECTION ===== */
+.new__content {
+  @apply relative text-center grid gap-4 w-[300px] py-8 px-4 bg-[rgba(0,0,0,0.15)] rounded-[2rem] overflow-hidden;
+}
+.new__content-tag {
+  @apply absolute top-6 left-6 py-1 px-3 bg-red-100 rounded-md text-[15px] text-white font-semibold;
+}
+.new__content-img {
+  @apply w-[130px] justify-self-center transition-all duration-300 group-hover:-translate-y-2;
+}
+.new__content-title {
+  @apply text-[20px] text-grey font-bold mb-2;
+}
+.new__content-text {
+  @apply text-[15px] text-grey mb-2;
+}
+.new__content-prices {
+  @apply inline-flex items-center gap-2;
+}
+.new__content-price {
+  @apply text-[20px] text-grey font-bold;
+}
+.new__content-discount {
+  @apply text-[15px] text-red-100;
+}
+.new__content-button {
+  @apply button button-fill absolute inline-flex p-4 -right-16 bottom-0 transition-all duration-300 group-hover:right-0;
+}
