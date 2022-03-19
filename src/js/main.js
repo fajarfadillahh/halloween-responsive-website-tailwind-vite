@@ -32,3 +32,20 @@ let homeSwiper = new Swiper(".home-swiper", {
     clickable: true,
   },
 });
+
+// ===== NEW ARRIVALS SWIPER =====
+let newSwiper = new Swiper(".new-swiper", {
+  centeredSlides: true,
+  slidesPerView: "auto",
+  loop: true,
+  spaceBetween: 32,
+  grabCursor: true,
+  autoplay: {
+    duration: 2000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

@@ -54,7 +54,8 @@
 .home__group-indicator::before {
   @apply absolute content-[""] w-[1px] h-[48px] bg-white -top-12 right-[45%];
 }
-/* Home Pagination */
+
+/* ===== Home & New Pagination ===== */
 .swiper-pagination {
   @apply mt-4;
   position: initial;
