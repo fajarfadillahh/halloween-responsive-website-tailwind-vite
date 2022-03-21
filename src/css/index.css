@@ -149,3 +149,8 @@
 .new__content-button {
   @apply button button-fill absolute inline-flex p-4 -right-16 bottom-0 transition-all duration-300 group-hover:right-0;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply opacity-100;
+}
