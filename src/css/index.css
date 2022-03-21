@@ -47,6 +47,36 @@
 }
 
 /* ===== HOME SECTION ===== */
+.home__content {
+  @apply grid gap-4 md:grid-cols-2 md:gap-8;
+}
+.home__group {
+  @apply relative grid pt-8;
+}
+.home__group-img {
+  @apply h-[250px] justify-self-center md:h-[300px];
+}
+.home__group-details {
+  @apply absolute right-2;
+}
+.home__group-title {
+  @apply block text-[14px] text-grey font-semibold text-right;
+}
+.home__group-subtitle {
+  @apply block text-[13px] text-grey text-right;
+}
+.home__data-subtitle {
+  @apply text-[15px] text-grey font-bold mb-4 uppercase;
+}
+.home__data-title {
+  @apply text-[36px] text-grey font-bold mb-4 leading-title uppercase;
+}
+.home__data-text {
+  @apply text-[15px] text-grey mb-4 leading-text;
+}
+.home__data-buttons {
+  @apply flex justify-between;
+}
 /* Home Group Indicator */
 .home__group-indicator {
   @apply absolute w-2 h-2 top-28 right-8 bg-white rounded-[50%];
