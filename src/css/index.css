@@ -13,12 +13,12 @@
     @apply pt-24 pb-12;
   }
   .section-title {
-    @apply text-[24px] text-grey font-bold text-center mb-8;
+    @apply text-[24px] text-grey font-bold text-center mb-8 lg:text-[36px];
   }
 
   /* Button Class */
   .button {
-    @apply flex justify-center py-4 px-8 text-[15px] text-white font-medium transition-all duration-300;
+    @apply flex justify-center py-4 px-8 text-[15px] text-white font-medium transition-all duration-300 lg:text-[16px];
   }
   .button-fill {
     @apply bg-red-100 text-white rounded-xl hover:bg-red-200;
@@ -40,7 +40,7 @@
 }
 /* Header Active Link */
 .header__link {
-  @apply text-[15px] text-white font-medium;
+  @apply text-[15px] text-white font-medium lg:text-[16px];
 }
 .header__link.active-link {
   @apply relative font-semibold before:absolute before:content-[""] before:top-6 before:left-0 before:right-0 before:mx-auto before:w-[20px] before:h-[4px] before:bg-white before:rounded-[5rem];
@@ -48,41 +48,41 @@
 
 /* ===== HOME SECTION ===== */
 .home__content {
-  @apply grid gap-4 md:grid-cols-2 md:gap-8;
+  @apply grid gap-4 md:grid-cols-2 md:gap-8 lg:gap-12;
 }
 .home__group {
   @apply relative grid pt-8;
 }
 .home__group-img {
-  @apply h-[250px] justify-self-center md:h-[300px];
+  @apply h-[250px] justify-self-center md:h-[300px] lg:h-[400px] lg:-translate-y-12;
 }
 .home__group-details {
-  @apply absolute right-2;
+  @apply absolute right-2 lg:bottom-[-5%] lg:right-[58%];
 }
 .home__group-title {
   @apply block text-[14px] text-grey font-semibold text-right;
 }
 .home__group-subtitle {
-  @apply block text-[13px] text-grey text-right;
+  @apply block text-[13px] text-grey text-right lg:text-[14px];
 }
 .home__data-subtitle {
-  @apply text-[15px] text-grey font-bold mb-4 uppercase;
+  @apply text-[15px] text-grey font-bold mb-4 uppercase lg:text-[20px];
 }
 .home__data-title {
-  @apply text-[36px] text-grey font-bold mb-4 leading-title uppercase;
+  @apply text-[36px] text-grey font-bold mb-4 leading-title uppercase lg:text-[64px] lg:mb-6;
 }
 .home__data-text {
-  @apply text-[15px] text-grey mb-4 leading-text;
+  @apply text-[15px] text-grey mb-4 leading-text lg:text-[16px] lg:mb-8;
 }
 .home__data-buttons {
   @apply flex justify-between;
 }
 /* Home Group Indicator */
 .home__group-indicator {
-  @apply absolute w-2 h-2 top-28 right-8 bg-white rounded-[50%];
+  @apply absolute w-2 h-2 top-28 right-8 bg-white rounded-[50%] lg:top-[initial] lg:right-[initial] lg:bottom-[10%] lg:left-[45%];
 }
 .home__group-indicator::before {
-  @apply absolute content-[""] w-[1px] h-[48px] bg-white -top-12 right-[45%];
+  @apply absolute content-[""] w-[1px] h-[48px] bg-white -top-12 right-[45%] lg:top-0 lg:h-[75px];
 }
 
 /* ===== Home & New Pagination ===== */
@@ -109,13 +109,13 @@
   @apply w-[150px] justify-self-center transition-all duration-300 group-hover:-translate-y-2;
 }
 .trick__item-title {
-  @apply text-[20px] text-grey font-bold mb-2;
+  @apply text-[20px] text-grey font-bold mb-2 lg:text-[24px];
 }
 .trick__item-text {
-  @apply text-[15px] text-grey mb-2;
+  @apply text-[15px] text-grey mb-2 lg:text-[16px];
 }
 .trick__item-price {
-  @apply text-[20px] text-grey font-bold;
+  @apply text-[20px] text-grey font-bold lg:text-[24px];
 }
 .trick__item-button {
   @apply button button-fill absolute inline-flex p-4 -right-16 bottom-0 transition-all duration-300 group-hover:right-0;
@@ -126,25 +126,25 @@
   @apply relative text-center grid gap-4 w-[300px] py-8 px-4 bg-[rgba(0,0,0,0.15)] rounded-[2rem] overflow-hidden;
 }
 .new__content-tag {
-  @apply absolute top-6 left-6 py-1 px-3 bg-red-100 rounded-md text-[15px] text-white font-semibold;
+  @apply absolute top-6 left-6 py-1 px-3 bg-red-100 rounded-md text-[15px] text-white font-semibold lg:text-[16px];
 }
 .new__content-img {
-  @apply w-[130px] justify-self-center transition-all duration-300 group-hover:-translate-y-2;
+  @apply w-[130px] justify-self-center transition-all duration-300 group-hover:-translate-y-2 lg:w-[150px];
 }
 .new__content-title {
-  @apply text-[20px] text-grey font-bold mb-2;
+  @apply text-[20px] text-grey font-bold mb-2 lg:text-[24px];
 }
 .new__content-text {
-  @apply text-[15px] text-grey mb-2;
+  @apply text-[15px] text-grey mb-2 lg:text-[16px];
 }
 .new__content-prices {
   @apply inline-flex items-center gap-2;
 }
 .new__content-price {
-  @apply text-[20px] text-grey font-bold;
+  @apply text-[20px] text-grey font-bold lg:text-[24px];
 }
 .new__content-discount {
-  @apply text-[15px] text-red-100;
+  @apply text-[15px] text-red-100 lg:text-[16px];
 }
 .new__content-button {
   @apply button button-fill absolute inline-flex p-4 -right-16 bottom-0 transition-all duration-300 group-hover:right-0;
