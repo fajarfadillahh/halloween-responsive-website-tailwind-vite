@@ -87,7 +87,7 @@
 
 /* ===== Home & New Pagination ===== */
 .swiper-pagination {
-  @apply mt-4;
+  @apply mt-4 lg:mt-12;
   position: initial;
 }
 .swiper-pagination-bullet {
